@@ -1,0 +1,30 @@
+{
+  "require": {
+    "esd/esd-core":"~0.1",
+    "esd/aop-plugin":"~0.1",
+    "esd/session-plugin":"~0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Elite\\Plugins\\Security\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "tmtbe",
+      "email": "896369042@qq.com",
+      "homepage": "https://github.com/tmtbe"
+    },
+    {
+      "name": "elite",
+      "email": "442958506@qq.com",
+      "homepage": "https://github.com/elite-cloud"
+    }
+  ],
+  "name": "elite-cloud/security-plugin",
+  "version": "0.1.0",
+  "type": "library",
+  "keywords": ["server", "swoole"],
+  "description": "security-plugin",
+  "license": "MIT"
+}
