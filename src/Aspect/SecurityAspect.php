@@ -17,7 +17,7 @@ class SecurityAspect extends OrderAspect
     /**
      * @param MethodInvocation $invocation Invocation
      *
-     * @Around("@execution(Eaglering\Plugins\Security\Annotation\PostAuthorize)")
+     * @Around("@execution(Elite\Plugins\Security\Annotation\PostAuthorize)")
      * @return mixed
      * @throws AccessDeniedException
      */
@@ -43,7 +43,7 @@ class SecurityAspect extends OrderAspect
     /**
      * @param MethodInvocation $invocation Invocation
      *
-     * @Around("@execution(Eaglering\Plugins\Security\Annotation\PreAuthorize)")
+     * @Around("@execution(Elite\Plugins\Security\Annotation\PreAuthorize)")
      * @return mixed
      * @throws AccessDeniedException
      */
